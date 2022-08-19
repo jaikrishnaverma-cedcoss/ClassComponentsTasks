@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import ClassComp from './components/ClassComp';
 import Template from './components/Template';
+import Template2 from './components/Template2';
 import MobileManufacturfers from './components/MobileManufacturfers';
 import MobileOs from './components/MobileOs';
 
@@ -20,6 +20,8 @@ function App() {
          <div className="header">
          <Template/>
          </div>
+         <h1>Q4. Make the component structure as given in the attachment.</h1>
+         <Template2/>
       </header>
     </div>
   );

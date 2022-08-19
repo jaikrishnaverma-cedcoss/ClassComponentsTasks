@@ -29,3 +29,46 @@
 .div2 .componentDiv{
     height: 200px;
 } 
+.box
+{
+    background-color: white;
+    width: 500px;
+}
+.box .componentDiv
+{
+    border: none;
+    background-color: rgb(0, 140, 255);
+    margin: 5px;
+}
+.rower .componentDiv .componentDiv{
+margin: 0;
+padding: 0;
+background-color: rgb(0, 140, 255) !important;
+height: 300px !important;
+width: 135px !important;
+
+}
+.rower .componentDiv .componentDiv:nth-child(1)
+{
+    margin-bottom: 5px;
+}
+.rower .componentDiv .componentDiv:nth-child(2)
+{
+    margin-top: 5px;
+}
+.rower .componentDiv .componentDiv p{
+ 
+}
+.rower .componentDiv:nth-child(1){
+   width: 140px;
+   height: 250px;
+   background-color: white;
+   padding: 0px;
+}
+.rower .componentDiv:nth-child(2){
+    width: 200px;
+ }
+ .rower .componentDiv:nth-child(3){
+    width: 140px;
+    height: 118px;
+ }
