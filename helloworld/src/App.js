@@ -1,6 +1,7 @@
 import ClassComp from './components/ClassComp';
 import Template from './components/Template';
 import Template2 from './components/Template2';
+import CardComponent from './components/CardComponent';
 import MobileManufacturfers from './components/MobileManufacturfers';
 import MobileOs from './components/MobileOs';
 
@@ -22,6 +23,12 @@ function App() {
          </div>
          <h1>Q4. Make the component structure as given in the attachment.</h1>
          <Template2/>
+         <h1>Q5. Make the following design as shown.</h1>
+         <div className='row final'>
+         <CardComponent image="t1.jpg" title="Console"/>
+         <CardComponent image="t2.jpg" title="Playground"/>
+         <CardComponent image="t3.jpg" title="Adventure"/>
+         </div>
       </header>
     </div>
   );
