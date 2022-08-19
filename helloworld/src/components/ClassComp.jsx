@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 class ClassComp extends Component {
     state = {  } 
-    render() { 
+    render=()=> { 
         return (<h1>Hello World!</h1>);
     }
 }
